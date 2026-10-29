@@ -1,0 +1,11 @@
+# 竞赛结果统一采用以下固定评估值，不得修改。
+# 简化题：单一 L1 存储，跨核同步固定周期，无 UB / 场景区分 / L2 Cache。
+
+[capacity]
+L1 1048576
+
+[bandwidth]
+bandwidth 60
+
+[sync]
+cross_core_sync_cycles 1000

@@ -1,0 +1,383 @@
+{
+  "traceEvents": [
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 0,
+      "args": {
+        "name": "Core 0"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 0,
+      "args": {
+        "name": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 1,
+      "args": {
+        "name": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 2,
+      "args": {
+        "name": "PIPE_M"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 3,
+      "args": {
+        "name": "PIPE_V"
+      }
+    },
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "name": "Core 1"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "name": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 1,
+      "args": {
+        "name": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "name": "PIPE_M"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "name": "PIPE_V"
+      }
+    },
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 0,
+      "args": {
+        "name": "Core 2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 0,
+      "args": {
+        "name": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 1,
+      "args": {
+        "name": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 2,
+      "args": {
+        "name": "PIPE_M"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 3,
+      "args": {
+        "name": "PIPE_V"
+      }
+    },
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 0,
+      "args": {
+        "name": "Core 3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 0,
+      "args": {
+        "name": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 1,
+      "args": {
+        "name": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 2,
+      "args": {
+        "name": "PIPE_M"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 3,
+      "args": {
+        "name": "PIPE_V"
+      }
+    },
+    {
+      "name": "Subgraph 0",
+      "cat": "SUBGRAPH",
+      "ph": "X",
+      "ts": 0,
+      "dur": 3829,
+      "pid": 1003,
+      "tid": 100,
+      "args": {
+        "core_id": 3,
+        "task_id": null,
+        "subgraph_id": 0,
+        "start": 0,
+        "end": 3829
+      }
+    },
+    {
+      "name": "COPY_IN #30",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 0,
+      "dur": 547,
+      "pid": 1003,
+      "tid": 0,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 30,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "COPY_IN #34",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 547,
+      "dur": 547,
+      "pid": 1003,
+      "tid": 0,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 34,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "MATMUL #13",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 1094,
+      "dur": 300,
+      "pid": 1003,
+      "tid": 2,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 13,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "COPY_IN #32",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 1094,
+      "dur": 794,
+      "pid": 1003,
+      "tid": 0,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 32,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "MATMUL #15",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 1394,
+      "dur": 300,
+      "pid": 1003,
+      "tid": 2,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 15,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "COPY_OUT #36",
+      "cat": "PIPE_MTE3",
+      "ph": "X",
+      "ts": 1394,
+      "dur": 794,
+      "pid": 1003,
+      "tid": 1,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 36,
+        "pipe": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "MATMUL #17",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 1888,
+      "dur": 300,
+      "pid": 1003,
+      "tid": 2,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 17,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "MATMUL #19",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 2188,
+      "dur": 300,
+      "pid": 1003,
+      "tid": 2,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 19,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "COPY_OUT #38",
+      "cat": "PIPE_MTE3",
+      "ph": "X",
+      "ts": 2188,
+      "dur": 547,
+      "pid": 1003,
+      "tid": 1,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 38,
+        "pipe": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "COPY_OUT #40",
+      "cat": "PIPE_MTE3",
+      "ph": "X",
+      "ts": 2735,
+      "dur": 547,
+      "pid": 1003,
+      "tid": 1,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 40,
+        "pipe": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "COPY_OUT #42",
+      "cat": "PIPE_MTE3",
+      "ph": "X",
+      "ts": 3282,
+      "dur": 547,
+      "pid": 1003,
+      "tid": 1,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 42,
+        "pipe": "PIPE_MTE3"
+      }
+    }
+  ],
+  "displayTimeUnit": "cycles",
+  "otherData": {
+    "input_graph": "matmul_case.json",
+    "makespan": 3829,
+    "track_layout": "one Perfetto process group per core; pipe threads are named PIPE_*",
+    "subgraph_spans": "X events named Subgraph <id> carry start/end in args"
+  }
+}

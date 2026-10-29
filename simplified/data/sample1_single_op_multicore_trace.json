@@ -1,0 +1,255 @@
+{
+  "traceEvents": [
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 0,
+      "args": {
+        "name": "Core 0"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 0,
+      "args": {
+        "name": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 1,
+      "args": {
+        "name": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 2,
+      "args": {
+        "name": "PIPE_M"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 3,
+      "args": {
+        "name": "PIPE_V"
+      }
+    },
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "name": "Core 1"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "name": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 1,
+      "args": {
+        "name": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "name": "PIPE_M"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "name": "PIPE_V"
+      }
+    },
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 0,
+      "args": {
+        "name": "Core 2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 0,
+      "args": {
+        "name": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 1,
+      "args": {
+        "name": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 2,
+      "args": {
+        "name": "PIPE_M"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 3,
+      "args": {
+        "name": "PIPE_V"
+      }
+    },
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 0,
+      "args": {
+        "name": "Core 3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 0,
+      "args": {
+        "name": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 1,
+      "args": {
+        "name": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 2,
+      "args": {
+        "name": "PIPE_M"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 3,
+      "args": {
+        "name": "PIPE_V"
+      }
+    },
+    {
+      "name": "Subgraph 0",
+      "cat": "SUBGRAPH",
+      "ph": "X",
+      "ts": 0,
+      "dur": 6,
+      "pid": 1003,
+      "tid": 100,
+      "args": {
+        "core_id": 3,
+        "task_id": null,
+        "subgraph_id": 0,
+        "start": 0,
+        "end": 6
+      }
+    },
+    {
+      "name": "COPY_IN #9",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 0,
+      "dur": 1,
+      "pid": 1003,
+      "tid": 0,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 9,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "ADD #4",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 1,
+      "dur": 4,
+      "pid": 1003,
+      "tid": 3,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 4,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "COPY_OUT #11",
+      "cat": "PIPE_MTE3",
+      "ph": "X",
+      "ts": 5,
+      "dur": 1,
+      "pid": 1003,
+      "tid": 1,
+      "args": {
+        "core_id": 3,
+        "task_id": 3,
+        "subgraph_id": 0,
+        "op_id": 11,
+        "pipe": "PIPE_MTE3"
+      }
+    }
+  ],
+  "displayTimeUnit": "cycles",
+  "otherData": {
+    "input_graph": "sample1_single_op.json",
+    "makespan": 6,
+    "track_layout": "one Perfetto process group per core; pipe threads are named PIPE_*",
+    "subgraph_spans": "X events named Subgraph <id> carry start/end in args"
+  }
+}

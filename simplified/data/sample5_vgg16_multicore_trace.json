@@ -1,0 +1,1647 @@
+{
+  "traceEvents": [
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 0,
+      "args": {
+        "name": "Core 0"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 0,
+      "args": {
+        "name": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 1,
+      "args": {
+        "name": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 2,
+      "args": {
+        "name": "PIPE_M"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1000,
+      "tid": 3,
+      "args": {
+        "name": "PIPE_V"
+      }
+    },
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "name": "Core 1"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "name": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 1,
+      "args": {
+        "name": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "name": "PIPE_M"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "name": "PIPE_V"
+      }
+    },
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 0,
+      "args": {
+        "name": "Core 2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 0,
+      "args": {
+        "name": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 1,
+      "args": {
+        "name": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 2,
+      "args": {
+        "name": "PIPE_M"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1002,
+      "tid": 3,
+      "args": {
+        "name": "PIPE_V"
+      }
+    },
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 0,
+      "args": {
+        "name": "Core 3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 0,
+      "args": {
+        "name": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 1,
+      "args": {
+        "name": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 2,
+      "args": {
+        "name": "PIPE_M"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1003,
+      "tid": 3,
+      "args": {
+        "name": "PIPE_V"
+      }
+    },
+    {
+      "name": "Subgraph 0",
+      "cat": "SUBGRAPH",
+      "ph": "X",
+      "ts": 0,
+      "dur": 11939,
+      "pid": 1001,
+      "tid": 100,
+      "args": {
+        "core_id": 1,
+        "task_id": null,
+        "subgraph_id": 0,
+        "start": 0,
+        "end": 11939
+      }
+    },
+    {
+      "name": "COPY_IN #5007",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 0,
+      "dur": 30,
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5007,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "COPY_IN #5009",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 30,
+      "dur": 30,
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5009,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "COPY_IN #5031",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 60,
+      "dur": 9,
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5031,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "CONV #19",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 69,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 19,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "COPY_IN #5011",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 69,
+      "dur": 30,
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5011,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "COPY_IN #5033",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 99,
+      "dur": 9,
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5033,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "COPY_IN #5013",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 108,
+      "dur": 30,
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5013,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "COPY_IN #5035",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 138,
+      "dur": 9,
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5035,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "COPY_IN #5015",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 147,
+      "dur": 30,
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5015,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "COPY_IN #5037",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 177,
+      "dur": 9,
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5037,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "COPY_IN #5017",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 186,
+      "dur": 30,
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5017,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "COPY_IN #5039",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 216,
+      "dur": 9,
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5039,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "COPY_IN #5041",
+      "cat": "PIPE_MTE2",
+      "ph": "X",
+      "ts": 225,
+      "dur": 9,
+      "pid": 1001,
+      "tid": 0,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5041,
+        "pipe": "PIPE_MTE2"
+      }
+    },
+    {
+      "name": "ACTIVATE #21",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 369,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 21,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #23",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 369,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 23,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #25",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 669,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 25,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #43",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 709,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 43,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "CONV #27",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 1009,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 27,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #45",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 1009,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 45,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "ACTIVATE #29",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 1309,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 29,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #47",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 1349,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 47,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #49",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 1649,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 49,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #67",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 1689,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 67,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "CONV #31",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 1989,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 31,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #69",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 1989,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 69,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "ACTIVATE #33",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 2289,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 33,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #51",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 2329,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 51,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #53",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 2629,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 53,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #71",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 2669,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 71,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #73",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 2969,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 73,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #91",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 3009,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 91,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "CONV #35",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 3309,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 35,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #93",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 3309,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 93,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "ACTIVATE #37",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 3609,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 37,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #55",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 3649,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 55,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #57",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 3949,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 57,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #75",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 3989,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 75,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #77",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 4289,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 77,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #95",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 4329,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 95,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #97",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 4629,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 97,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #115",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 4669,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 115,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "CONV #39",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 4969,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 39,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #117",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 4969,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 117,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "ACTIVATE #41",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 5269,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 41,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #59",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 5309,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 59,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #61",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 5609,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 61,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #79",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 5649,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 79,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #81",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 5949,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 81,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #99",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 5989,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 99,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #101",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 6289,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 101,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #119",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 6329,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 119,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #121",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 6629,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 121,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #139",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 6669,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 139,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "CONV #63",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 6969,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 63,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #141",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 6969,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 141,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "COPY_OUT #5019",
+      "cat": "PIPE_MTE3",
+      "ph": "X",
+      "ts": 7009,
+      "dur": 30,
+      "pid": 1001,
+      "tid": 1,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5019,
+        "pipe": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "ACTIVATE #65",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 7269,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 65,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #83",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 7309,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 83,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #85",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 7609,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 85,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #103",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 7649,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 103,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #105",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 7949,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 105,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #123",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 7989,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 123,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #125",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 8289,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 125,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #143",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 8329,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 143,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "CONV #87",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 8629,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 87,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #145",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 8629,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 145,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "COPY_OUT #5021",
+      "cat": "PIPE_MTE3",
+      "ph": "X",
+      "ts": 8669,
+      "dur": 30,
+      "pid": 1001,
+      "tid": 1,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5021,
+        "pipe": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "ACTIVATE #89",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 8929,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 89,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #107",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 8969,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 107,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #109",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 9269,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 109,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #127",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 9309,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 127,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #129",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 9609,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 129,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #147",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 9649,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 147,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "CONV #111",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 9949,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 111,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #149",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 9949,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 149,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "COPY_OUT #5023",
+      "cat": "PIPE_MTE3",
+      "ph": "X",
+      "ts": 9989,
+      "dur": 30,
+      "pid": 1001,
+      "tid": 1,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5023,
+        "pipe": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "ACTIVATE #113",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 10249,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 113,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #131",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 10289,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 131,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #133",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 10589,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 133,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #151",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 10629,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 151,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "CONV #135",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 10929,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 135,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #153",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 10929,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 153,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "COPY_OUT #5025",
+      "cat": "PIPE_MTE3",
+      "ph": "X",
+      "ts": 10969,
+      "dur": 30,
+      "pid": 1001,
+      "tid": 1,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5025,
+        "pipe": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "ACTIVATE #137",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 11229,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 137,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #155",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 11269,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 155,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "ACTIVATE #157",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 11569,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 157,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "CONV #159",
+      "cat": "PIPE_M",
+      "ph": "X",
+      "ts": 11569,
+      "dur": 300,
+      "pid": 1001,
+      "tid": 2,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 159,
+        "pipe": "PIPE_M"
+      }
+    },
+    {
+      "name": "COPY_OUT #5027",
+      "cat": "PIPE_MTE3",
+      "ph": "X",
+      "ts": 11609,
+      "dur": 30,
+      "pid": 1001,
+      "tid": 1,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5027,
+        "pipe": "PIPE_MTE3"
+      }
+    },
+    {
+      "name": "ACTIVATE #161",
+      "cat": "PIPE_V",
+      "ph": "X",
+      "ts": 11869,
+      "dur": 40,
+      "pid": 1001,
+      "tid": 3,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 161,
+        "pipe": "PIPE_V"
+      }
+    },
+    {
+      "name": "COPY_OUT #5029",
+      "cat": "PIPE_MTE3",
+      "ph": "X",
+      "ts": 11909,
+      "dur": 30,
+      "pid": 1001,
+      "tid": 1,
+      "args": {
+        "core_id": 1,
+        "task_id": 1,
+        "subgraph_id": 0,
+        "op_id": 5029,
+        "pipe": "PIPE_MTE3"
+      }
+    }
+  ],
+  "displayTimeUnit": "cycles",
+  "otherData": {
+    "input_graph": "sample5_vgg16.json",
+    "makespan": 11939,
+    "track_layout": "one Perfetto process group per core; pipe threads are named PIPE_*",
+    "subgraph_spans": "X events named Subgraph <id> carry start/end in args"
+  }
+}

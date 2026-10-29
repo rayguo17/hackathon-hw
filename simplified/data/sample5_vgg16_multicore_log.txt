@@ -1,0 +1,8 @@
+input_graph: sample5_vgg16.json
+makespan: 11939
+num_cores: 4
+data movement: scheduled_copy_bytes=24576, physical_ddr_bytes=24576
+core 0: ops=0, end=0
+core 1: ops=90, end=11939
+core 2: ops=0, end=0
+core 3: ops=0, end=0

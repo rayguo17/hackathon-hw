@@ -1,0 +1,8 @@
+input_graph: sample4_shared_input.json
+makespan: 1469
+num_cores: 4
+data movement: scheduled_copy_bytes=77824, physical_ddr_bytes=77824
+core 0: ops=0, end=0
+core 1: ops=18, end=1469
+core 2: ops=0, end=0
+core 3: ops=0, end=0

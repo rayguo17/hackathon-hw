@@ -1,0 +1,70 @@
+{
+ "tensors": [
+  {
+   "id": 1,
+   "pos": "DDR",
+   "size": 16
+  },
+  {
+   "id": 3,
+   "pos": "L1",
+   "size": 16
+  },
+  {
+   "id": 5,
+   "pos": "L1",
+   "size": 16
+  },
+  {
+   "id": 6,
+   "pos": "DDR",
+   "size": 16
+  }
+ ],
+ "ops": [
+  {
+   "id": 2,
+   "op": "COPY_IN",
+   "pipe": "PIPE_MTE2",
+   "cycles": 1
+  },
+  {
+   "id": 4,
+   "op": "ADD",
+   "pipe": "PIPE_V",
+   "cycles": 4
+  },
+  {
+   "id": 7,
+   "op": "COPY_OUT",
+   "pipe": "PIPE_MTE3",
+   "cycles": 1
+  }
+ ],
+ "edges": [
+  {
+   "source": 1,
+   "target": 2
+  },
+  {
+   "source": 2,
+   "target": 3
+  },
+  {
+   "source": 3,
+   "target": 4
+  },
+  {
+   "source": 4,
+   "target": 5
+  },
+  {
+   "source": 5,
+   "target": 7
+  },
+  {
+   "source": 7,
+   "target": 6
+  }
+ ]
+}

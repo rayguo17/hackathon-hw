@@ -1,0 +1,146 @@
+{
+ "tensors": [
+  {
+   "id": 1,
+   "pos": "DDR",
+   "size": 4096
+  },
+  {
+   "id": 3,
+   "pos": "L1",
+   "size": 4096
+  },
+  {
+   "id": 4,
+   "pos": "L1",
+   "size": 4096
+  },
+  {
+   "id": 6,
+   "pos": "L1",
+   "size": 4096
+  },
+  {
+   "id": 8,
+   "pos": "L1",
+   "size": 4096
+  },
+  {
+   "id": 10,
+   "pos": "L1",
+   "size": 4096
+  },
+  {
+   "id": 12,
+   "pos": "L1",
+   "size": 4096
+  },
+  {
+   "id": 14,
+   "pos": "DDR",
+   "size": 4096
+  }
+ ],
+ "ops": [
+  {
+   "id": 2,
+   "op": "COPY_IN",
+   "pipe": "PIPE_MTE2",
+   "cycles": 1
+  },
+  {
+   "id": 5,
+   "op": "ACTIVATE",
+   "pipe": "PIPE_V",
+   "cycles": 20
+  },
+  {
+   "id": 7,
+   "op": "MATMUL",
+   "pipe": "PIPE_M",
+   "cycles": 100
+  },
+  {
+   "id": 9,
+   "op": "ACTIVATE",
+   "pipe": "PIPE_V",
+   "cycles": 20
+  },
+  {
+   "id": 11,
+   "op": "MATMUL",
+   "pipe": "PIPE_M",
+   "cycles": 100
+  },
+  {
+   "id": 13,
+   "op": "ACTIVATE",
+   "pipe": "PIPE_V",
+   "cycles": 20
+  },
+  {
+   "id": 15,
+   "op": "COPY_OUT",
+   "pipe": "PIPE_MTE3",
+   "cycles": 1
+  }
+ ],
+ "edges": [
+  {
+   "source": 1,
+   "target": 2
+  },
+  {
+   "source": 2,
+   "target": 3
+  },
+  {
+   "source": 3,
+   "target": 5
+  },
+  {
+   "source": 5,
+   "target": 4
+  },
+  {
+   "source": 4,
+   "target": 7
+  },
+  {
+   "source": 7,
+   "target": 6
+  },
+  {
+   "source": 6,
+   "target": 9
+  },
+  {
+   "source": 9,
+   "target": 8
+  },
+  {
+   "source": 8,
+   "target": 11
+  },
+  {
+   "source": 11,
+   "target": 10
+  },
+  {
+   "source": 10,
+   "target": 13
+  },
+  {
+   "source": 13,
+   "target": 12
+  },
+  {
+   "source": 12,
+   "target": 15
+  },
+  {
+   "source": 15,
+   "target": 14
+  }
+ ]
+}
